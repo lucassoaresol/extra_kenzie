@@ -1,0 +1,156 @@
+html,body,header,figure,nav,ul,li,a,main,div,h1,h2,figcaption,article,aside,footer{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 105px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+.header_right{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 25px;
+    display: flex;
+    background-color: #0000FF;
+    height: 105px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_right a{
+    color: white;
+    padding: 0 30px;
+}
+
+.header_img{
+    background-image: url(../img/logo.png);
+    margin-left: 70px;
+    width: 220px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header_menu{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    gap: 60px;
+    margin-left: 92px;
+}
+
+.blue{
+    color: #0000FF;
+}
+
+.header_menu a:hover{
+    color: #0000FF;
+    border-bottom: solid 1px #0000FF;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.main_local{
+    padding-top: 105px;
+}
+
+h1{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 36px;
+    margin-top: 50px;
+    color: #0000FF;   
+}
+
+.main_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+.main_info ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_info figure{
+    background-image: url(../img/ugo.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.main_info a:hover{
+    color: #0000FF;
+}
+
+.main_caixa{
+    display: flex;
+    background-color: #0000FF;
+}
+
+.main_caixa figure{
+    background-image: url(../img/banner.png);
+    width: 50%;
+}
+
+.caixa_texto{
+    display: flex;
+}
+
+.caixa_texto div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.container_conteudo{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.container_conteudo figure{
+    background-image: url(../img/banner.png);
+    width: 700px;
+    height: 250px;
+    background-size: cover;
+}
+
+.conteudo_compartilhar ul{
+    display: flex;
+}
+
+aside{
+    border-top: 1px solid #dddddd;
+}
+
+h2{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 36px;
+    color: #2d2d2d;   
+}
+
+aside nav{
+    display: flex;
+}
